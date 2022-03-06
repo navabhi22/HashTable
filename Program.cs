@@ -24,11 +24,10 @@ namespace HashTableDemo
             hash.Add("13", "themselves");
             hash.Add("14", "into");
             hash.Add("15", "paranoid");
-            hash.Add("16", "avoidale");
+            hash.Add("16", "avoidable");
             hash.Add("17", "situation");
 
-            string hash0 = hash.Get("0");
-            Console.WriteLine(" 0th index value : " + hash0);
+            hash.Remove("16");
         }
     }
 }
